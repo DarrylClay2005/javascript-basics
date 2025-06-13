@@ -50,3 +50,23 @@ let notAssigned;
 // End Of Data Types Examples
 
 // Review Operator Examples!
+let sum = 5 + 3;                // Arithmetic: addition
+let difference = 10 - 4;        // Arithmetic: subtraction
+let product = 6 * 7;            // Arithmetic: multiplication
+let quotient = 20 / 4;          // Arithmetic: division
+let remainder = 17 % 3;         // Arithmetic: modulus
+
+let x = 10;
+x += 5;                         // Assignment: addition assignment
+x -= 2;                         // Assignment: subtraction assignment
+x *= 3;                         // Assignment: multiplication assignment
+x /= 4;                         // Assignment: division assignment
+
+let isEqual = (5 == '5');       // Comparison: equality (loose)
+let isStrictEqual = (5 === 5);  // Comparison: strict equality
+let isNotEqual = (7 != 8);      // Comparison: inequality
+let isGreater = (10 > 3);       // Comparison: greater than
+
+let andResult = true && false;  // Logical: AND
+let orResult = true || false;   // Logical: OR
+let notResult = !true;          // Logical: NOT
