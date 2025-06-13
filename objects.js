@@ -12,3 +12,6 @@ person.isStudent = false; // Dot notation
 person["name"] = "Bob"; // Bracket notation
 
 console.log(person);
+
+const property = "age";
+console.log(person[property]);
